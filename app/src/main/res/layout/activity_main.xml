@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="19dp"
+        android:layout_marginTop="148dp"
+        android:text="МДК 01.03"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.112"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout1"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="@string/lab_work_9"
+        app:layout_constraintStart_toStartOf="@+id/textView1"
+        app:layout_constraintTop_toBottomOf="@+id/textView1" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="TextView3"
+        android:textColor="@color/cardview_dark_background"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/textView2"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="414dp"
+        android:layout_height="186dp"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteX="-2dp"
+        tools:layout_editor_absoluteY="-34dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="198dp"
+        android:layout_height="243dp"
+        android:layout_marginTop="32dp"
+        android:autoSizeMaxTextSize="50sp"
+        android:autoSizeTextType="uniform"
+        android:text="@string/textView4"
+        android:textSize="5dp"
+        android:textStyle="italic"
+        android:textColor="@color/material_dynamic_secondary20"
+        app:layout_constraintStart_toStartOf="@+id/textView2"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
